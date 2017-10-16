@@ -1,10 +1,15 @@
-#Library Management( using python, django)
+LIBRARY MANAGEMENT( using python, django)
+
 Whether you have 20 items or 2000 items, your library is precious. The library management application caters for both the institutional and small organisation. Our online web application lets the user to create multiple catalogues, view the book information and other features enabled with the administration zone for the admin to perform some superlative actions that cannot be done by the ordinary users.
-Scope
+
+SCOPE
+
 The different areas where we can use our application are:
 •	Any educational institutions can make use of it by providing the information about the author, book content available in the library.
 •	Modifications can be done easily based on the requirements when necessary.
+
 Requirement specification
+
 Functional requirements:
 •	Librarian login (Admin Zone): Admin can login and access the required information.
 •	Security: No other users can login except the admin.
@@ -12,7 +17,7 @@ Functional requirements:
 
 
 Non-functional requirements:
-•	Secure access to user’s data with own login name and password.
+•	Secure access to user’s data with own login name and password
 •	Better component design to get better performance.
 •	Flexible service based architecture desirable for further extension.
 
@@ -38,14 +43,16 @@ Use Git or checkout with SVN using the web URL.
 https://github.com/bandana-khadka/aip.git
 
 Salient features:
-•	Sing up, Login, Logout
+•	Sign up, Login, Logout
 o	Users need to create an account and log in to create book catalogue.
 •	Create, View, Search, Edit and Delete
 o	Registered users can create their book info.
 o	Administrator can edit and delete book based on availability.
 o	Everyone can search for book information.
+ 
  Coding Standards
-Comments 
+ 
+ Comments 
 -> TODOs should include the string. TODO in all caps, followed by the name, e-mail address, or other identifier of the person who can best provide context about the problem referenced by the TODO, in parentheses. A comment explaining what there is to do is required. 
 -> Have a comment on every function that describes its purpose.
 
@@ -55,6 +62,8 @@ Indentation
 -> Spaces are the preferred indentation method.
 -> Tabs should be used only to remain consistent with the codes already indented with the tabs.
 -> Since, we need python version more than 3.6 it disallows mixing of tabs and spaces.
+
+
 Naming 
 -> Use Capitals for class names, but lower_with_under.py for module names.
  -> Use of underscores in names, not using any dashes.
@@ -62,12 +71,16 @@ Naming
  -> Prepending a single underscore (_) has some support for protecting module variables and functions (not included with import * from). 
 -> Prepending a double underscore (__) to an instance variable or method effectively serves to make the variable or method private to its class (using name mangling). 
 -> Don't abbreviate local variables (e.g., 'total' not 'tot')
+
+
 Statements -> only one statement in a line.	
-Imports Formatting -> Imports should be on separate lines.
+
 White Spacing 
 -> No whitespace inside parentheses, brackets or braces.
  -> No whitespace before a comma, semicolon, or colon. Do use whitespace after a comma, semicolon, or colon except at the end of the line. 
 -> No whitespace before the open parenthesis/bracket that starts an argument list, indexing or slicing.
+
+
 Imports
  -> Imports should be usually on separate lines so that it will be clear and precise if followed conventions.
 For example,
@@ -82,6 +95,9 @@ Python Style Rules
 -> Do not terminate your lines with semi-colons and do not use semi-colons to put two commands on the same line.
  -> Indent your code blocks with 4 spaces.
  -> Two blank lines between top-level definitions, one blank line between method definitions.
+
+
+
 Authors
 Students of UTS- Bandana, Yoonhye, Sachin
 
