@@ -61,16 +61,16 @@ Indentation
 -> Since, we need python version more than 3.6 it disallows mixing of tabs and spaces.
 Naming 
 -> Use Capitals for class names, but lower_with_under.py for module names.
- -> Use of underscores in names, not using any dashes.
- -> Not using any single character names except for counters and iterators.
- -> Prepending a single underscore (_) has some support for protecting module variables and functions (not included with import * from). 
+-> Use of underscores in names, not using any dashes.
+-> Not using any single character names except for counters and iterators.
+-> Prepending a single underscore (_) has some support for protecting module variables and functions (not included with import * from). 
 -> Prepending a double underscore (__) to an instance variable or method effectively serves to make the variable or method private to its class (using name mangling). 
 -> Don't abbreviate local variables (e.g., 'total' not 'tot')
 Statements -> only one statement in a line.	
 Imports Formatting -> Imports should be on separate lines.
 White Spacing 
 -> No whitespace inside parentheses, brackets or braces.
- -> No whitespace before a comma, semicolon, or colon. Do use whitespace after a comma, semicolon, or colon except at the end of the line. 
+-> No whitespace before a comma, semicolon, or colon. Do use whitespace after a comma, semicolon, or colon except at the end of the line. 
 -> No whitespace before the open parenthesis/bracket that starts an argument list, indexing or slicing.
 Imports
  -> Imports should be usually on separate lines so that it will be clear and precise if followed conventions.
@@ -84,8 +84,9 @@ No: Import django, sys
 
 Python Style Rules 
 -> Do not terminate your lines with semi-colons and do not use semi-colons to put two commands on the same line.
- -> Indent your code blocks with 4 spaces.
- -> Two blank lines between top-level definitions, one blank line between method definitions.
+-> Indent your code blocks with 4 spaces.
+-> Two blank lines between top-level definitions, one blank line between method definitions.
+
 Authors
 Students of UTS- Bandana, Yoonhye, Sachin
 
